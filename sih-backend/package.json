@@ -1,0 +1,28 @@
+{
+  "name": "sih-backend",
+  "version": "1.0.0",
+  "description": "This is the backend for SIH 2025",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhoirob2004/SIH2025.git"
+  },
+  "author": "Bhoirob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhoirob2004/SIH2025/issues"
+  },
+  "homepage": "https://github.com/Bhoirob2004/SIH2025#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
