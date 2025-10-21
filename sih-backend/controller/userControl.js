@@ -13,7 +13,7 @@ const registerUser = asyncHandler(async(req, res) =>{
         throw new Error("All fields are mandatory");
     }
     const userAvailabe = await User.findOne({email});
-    if(userAvailabe){
+    if(userAvailable){
         res.status(400);
         throw new Error("The user is already registered");
     }
