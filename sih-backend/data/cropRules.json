@@ -1,0 +1,30 @@
+[
+  { 
+    "soilType": "Loamy", 
+    "irrigation": "Drip", 
+    "period": "Kharif", 
+    "crop": "Rice",
+    "confidence": 92
+  },
+  { 
+    "soilType": "Sandy", 
+    "irrigation": "Rainfed", 
+    "period": "Rabi", 
+    "crop": "Millet",
+    "confidence": 85
+  },
+  { 
+    "soilType": "Clay", 
+    "irrigation": "Canal", 
+    "period": "Kharif", 
+    "crop": "Sugarcane",
+    "confidence": 89
+  },
+  { 
+    "soilType": "Silty", 
+    "irrigation": "Well", 
+    "period": "Rabi", 
+    "crop": "Wheat",
+    "confidence": 90
+  }
+]
