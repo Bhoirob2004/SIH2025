@@ -74,5 +74,11 @@ const loginUser = asyncHandler(async (req, res) => {
     throw new Error("Invalid email or password");
   }
 });
+//@description current usedr info
+//@route POST api/users/current
+//@access private
+const currentUser = asyncHandler(async(req,res)=>{
+    res.json(req.user)
+});
 
-module.exports = { registerUser, loginUser };
+module.exports = { registerUser, loginUser , currentUser};

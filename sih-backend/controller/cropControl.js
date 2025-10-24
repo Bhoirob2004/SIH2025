@@ -4,7 +4,7 @@ const crop = require("../models/inputModel");
 const rules = require("../data/cropRules.json");
 
 //Description get input data 
-//route POST /api/data
+//route POST /api/input
 
 const getData = asyncHandler(async(req,res) =>{
     const {location , period, soilType, cropPreferance, irrigation} = req.body;

@@ -21,7 +21,7 @@ const inputSchema = mongoose.Schema({
         type : String,
         required : [true, "irrigation is mandatory"]
     }
-}, {timeStamps : true})
+    }, {timestamps: true})
 
 module.exports = mongoose.model("Input", inputSchema);
 
