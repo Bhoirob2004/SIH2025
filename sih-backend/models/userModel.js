@@ -3,18 +3,18 @@ const mongoose = require("mongoose");
 const userSchema = mongoose.Schema({
     username : {
         type : String,
-        require : [true, "Username is mandatory"],
-        unique : [true, "Username is already taken"]
+        required : [true, "Username is mandatory"],
+        uniqued: [true, "Username is already taken"]
     },
     email : {
         type : String,
-        require : [true, "Email is mandatory"],
+        required : [true, "Email is mandatory"],
         unique :[true, "Email is already registered"],
 
     },
     password :{
         type : String,
-        require :[true, "Password is mandatory"],
+        required :[true, "Password is mandatory"],
     }
 
 }, {timeStamps: true, })

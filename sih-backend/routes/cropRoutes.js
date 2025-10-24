@@ -6,5 +6,5 @@ const router = express.Router();
 router.use(validateToken);
 
 router.route("/input").post(getData);
-router.route("/hostory").get(getHistory);
+router.route("/history").get(getHistory);
 module.exports = router;
